@@ -1,0 +1,5 @@
+.env
+gateway/greeter-gw
+greeter/greeter-cli
+greeter/greeter-sc
+greeter/greeter-srv
