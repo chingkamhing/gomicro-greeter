@@ -12,4 +12,6 @@ proto:
 
 .PHONY: clean
 clean:
+	rm -f ${PROTO_DIR}/hello/*.pb.go
+	rm -f ${PROTO_DIR}/hello/*.pb.gw.go
 	rm -f greeter-gw
