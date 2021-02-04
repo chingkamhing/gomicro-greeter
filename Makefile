@@ -8,6 +8,9 @@ proto:
 	make -C gateway proto
 	make -C greeter proto
 
+.PHONY: all
+all: proto build
+
 .PHONY: clean
 clean:
 	make -C gateway clean
